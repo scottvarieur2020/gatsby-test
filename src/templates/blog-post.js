@@ -8,7 +8,7 @@ const Template = ({ data }) => {
     <Layout>
       <Link to="/blog">Go back</Link>
       <hr />
-      <h1>post.frontmatter.title</h1>
+      <h1>{post.frontmatter.title}</h1>
       <h4>
         Posted by {post.frontmatter.author} on {post.frontmatter.date}
       </h4>
